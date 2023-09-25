@@ -1,4 +1,5 @@
-## squareup
+# Squareup (Customized Version)
+## This is currently a WIP.
 
 ### A sleek and modern startpage
 
