@@ -13,8 +13,8 @@
 	padding: 40px 12vw 6vh 12vw;
 	opacity: 0;
 	transition:
-		opacity var(--transition-speed),
-		z-index var(--transition-speed);
+				opacity var(--transition-speed),
+				z-index var(--transition-speed);
 }
 
 #web-menu.web-menu-show {
@@ -39,11 +39,11 @@
 #web-menu-list-container {
 	position: relative;
 	display: flex;
-	justify-content: center;
-	max-height: 70vh;
+  	justify-content: center;
+  	max-height: 70vh;
 	overflow-y: auto;
 	scrollbar-color: var(--base-secondary-bg) var(--base-bg);
-	scrollbar-width: 10px;
+ 	scrollbar-width: 10px;
 }
 
 #web-menu-list-container.web-menu-category-mode {
@@ -58,7 +58,7 @@
 	text-align: center;
 	padding: 2px;
 	border: none;
-	border-radius: 15px;
+	border-radius: 6px;
 	width: 225px;
 	height: 36px;
 }
@@ -100,7 +100,7 @@
 	height: 128px;
 	margin: 5px;
 	cursor: pointer;
-	border-radius: 25px;
+	border-radius: 12px;
 }
 
 .web-item:hover {
